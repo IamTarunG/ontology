@@ -1,20 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE rdf:RDF [
-    <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
-    <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
-    <!ENTITY kaon 'http://kaon.semanticweb.org/2001/11/kaon-lexical#'>
-    <!ENTITY default-graph-uri 'https://github.com/IamTarunG/ontology/blob/main/ontologymodel.owl#'>
-]>
-
-<?include-rdf logicalURI="http://kaon.semanticweb.org/2001/11/kaon-root" physicalURI="jar:file:/F:/texttoonto-bin-11-09-2004/kaon/kaonapi.jar!/edu/unika/aifb/kaon/api/res/kaon-root.xml"?>
-<?include-rdf logicalURI="http://kaon.semanticweb.org/2001/11/kaon-lexical" physicalURI="jar:file:/F:/texttoonto-bin-11-09-2004/kaon/kaonapi.jar!/edu/unika/aifb/kaon/api/res/kaon-lexical.xml"?>
-
-<?model-attribute key="OIModel.version" value="17"?>
-
-<rdf:RDF xml:base="file:/F:/0"
-    xmlns:rdf="&rdf;"
-    xmlns:rdfs="&rdfs;"
-    xmlns:kaon="&kaon;">
+<?xml version='1.0'?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kaon="http://kaon.semanticweb.org/2001/11/kaon-lexical#">
 
 <kaon:Stem rdf:ID="i-1675493195625-1550596516"
     kaon:value="special_jj">

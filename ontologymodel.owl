@@ -1,0 +1,658 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+    <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+    <!ENTITY kaon 'http://kaon.semanticweb.org/2001/11/kaon-lexical#'>
+]>
+
+<?include-rdf logicalURI="http://kaon.semanticweb.org/2001/11/kaon-root" physicalURI="jar:file:/F:/texttoonto-bin-11-09-2004/kaon/kaonapi.jar!/edu/unika/aifb/kaon/api/res/kaon-root.xml"?>
+<?include-rdf logicalURI="http://kaon.semanticweb.org/2001/11/kaon-lexical" physicalURI="jar:file:/F:/texttoonto-bin-11-09-2004/kaon/kaonapi.jar!/edu/unika/aifb/kaon/api/res/kaon-lexical.xml"?>
+
+<?model-attribute key="OIModel.version" value="17"?>
+
+<rdf:RDF xml:base="file:/F:/0"
+    xmlns:rdf="&rdf;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:kaon="&kaon;">
+
+<kaon:Stem rdf:ID="i-1675493195625-1550596516"
+    kaon:value="special_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-2101729189"/>
+</kaon:Stem>
+<kaon:Stem rdf:ID="i-1675493195641-1021830820"
+    kaon:value="features_nns">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1187396621"/>
+</kaon:Stem>
+<kaon:Synonym rdf:ID="i-1675493195641-1025915269"
+    kaon:value="rings_nns ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-869482065"/>
+</kaon:Synonym>
+<kaon:Stem rdf:ID="i-1675493195641-1039225516"
+    kaon:value="phones_nns">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1792096017"/>
+</kaon:Stem>
+<kaon:Stem rdf:ID="i-1675493195641-1042084777"
+    kaon:value="excellent_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1082933919"/>
+</kaon:Stem>
+<kaon:Synonym rdf:ID="i-1675493195641-1044507774"
+    kaon:value="nokia_jj ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1276145856"/>
+</kaon:Synonym>
+<rdfs:Class rdf:ID="i-1675493195641-1068904382">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Synonym rdf:ID="i-1675493195641-1075480487"
+    kaon:value="voice_nn ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1068904382"/>
+</kaon:Synonym>
+<rdfs:Class rdf:ID="i-1675493195641-1082933919">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Label rdf:ID="i-1675493195641-1089276790"
+    kaon:value="menu_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1202019245"/>
+</kaon:Label>
+<kaon:Stem rdf:ID="i-1675493195641-1095669066"
+    kaon:value="problem_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1580375290"/>
+</kaon:Stem>
+<kaon:Synonym rdf:ID="i-1675493195641-1104228675"
+    kaon:value="warranty_nn ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-464581666"/>
+</kaon:Synonym>
+<kaon:Synonym rdf:ID="i-1675493195641-111419179"
+    kaon:value="resolution_nn ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-760678528"/>
+</kaon:Synonym>
+<rdfs:Class rdf:ID="i-1675493195641-1157308026">
+    <rdfs:subClassOf rdf:resource="#i-1675493195641-723058453"/>
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Label rdf:ID="i-1675493195641-1177606767"
+    kaon:value="way_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-129717946"/>
+</kaon:Label>
+<rdfs:Class rdf:ID="i-1675493195641-1187396621">
+    <rdfs:subClassOf rdf:resource="#i-1675493195641-723058453"/>
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<rdfs:Class rdf:ID="i-1675493195641-118870727">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<rdfs:Class rdf:ID="i-1675493195641-1202019245">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Synonym rdf:ID="i-1675493195641-1219640463"
+    kaon:value="phones_nns ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1792096017"/>
+</kaon:Synonym>
+<kaon:Label rdf:ID="i-1675493195641-1237615495"
+    kaon:value="phones_nns">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1792096017"/>
+</kaon:Label>
+<kaon:Label rdf:ID="i-1675493195641-1263282251"
+    kaon:value="great_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-932641083"/>
+</kaon:Label>
+<rdfs:Class rdf:ID="i-1675493195641-1276145856">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Synonym rdf:ID="i-1675493195641-1290313327"
+    kaon:value="features_nns ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1187396621"/>
+</kaon:Synonym>
+<kaon:Label rdf:ID="i-1675493195641-1290602585"
+    kaon:value="light_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1875091269"/>
+</kaon:Label>
+<rdfs:Class rdf:ID="i-1675493195641-129717946">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<rdfs:Class rdf:ID="i-1675493195641-1320559802">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<rdfs:Class rdf:ID="i-1675493195641-1358783316">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Label rdf:ID="i-1675493195641-1363961072"
+    kaon:value="excellent_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1082933919"/>
+</kaon:Label>
+<rdfs:Class rdf:ID="i-1675493195641-137945442">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Synonym rdf:ID="i-1675493195641-1397602518"
+    kaon:value="size_nn ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-950371560"/>
+</kaon:Synonym>
+<kaon:Label rdf:ID="i-1675493195641-1422934913"
+    kaon:value="resolution_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-760678528"/>
+</kaon:Label>
+<kaon:Synonym rdf:ID="i-1675493195641-1461793132"
+    kaon:value="small_jj ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1320559802"/>
+</kaon:Synonym>
+<kaon:Stem rdf:ID="i-1675493195641-1473657599"
+    kaon:value="light_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1875091269"/>
+</kaon:Stem>
+<kaon:Label rdf:ID="i-1675493195641-1523305186"
+    kaon:value="size_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-950371560"/>
+</kaon:Label>
+<kaon:Stem rdf:ID="i-1675493195641-1531557247"
+    kaon:value="radio_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1749708997"/>
+</kaon:Stem>
+<kaon:Stem rdf:ID="i-1675493195641-1559248291"
+    kaon:value="great_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-932641083"/>
+</kaon:Stem>
+<rdfs:Class rdf:ID="i-1675493195641-1580375290">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Synonym rdf:ID="i-1675493195641-158426082"
+    kaon:value="radio_nn ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1749708997"/>
+</kaon:Synonym>
+<kaon:Label rdf:ID="i-1675493195641-1618421583"
+    kaon:value="radio_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1749708997"/>
+</kaon:Label>
+<kaon:Stem rdf:ID="i-1675493195641-1623346104"
+    kaon:value="games_nns">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-118870727"/>
+</kaon:Stem>
+<kaon:Synonym rdf:ID="i-1675493195641-1632990589"
+    kaon:value="options_nns ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-137945442"/>
+</kaon:Synonym>
+<kaon:Synonym rdf:ID="i-1675493195641-1700102288"
+    kaon:value="games_nns ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-118870727"/>
+</kaon:Synonym>
+<rdfs:Class rdf:ID="i-1675493195641-1707842357">
+    <rdfs:subClassOf rdf:resource="#i-1675493195641-877698776"/>
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Label rdf:ID="i-1675493195641-17193087"
+    kaon:value="special_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-2101729189"/>
+</kaon:Label>
+<kaon:Stem rdf:ID="i-1675493195641-1728332521"
+    kaon:value="options_nns">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-137945442"/>
+</kaon:Stem>
+<kaon:Stem rdf:ID="i-1675493195641-1733252679"
+    kaon:value="resolution_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-760678528"/>
+</kaon:Stem>
+<kaon:Label rdf:ID="i-1675493195641-1735736876"
+    kaon:value="features_nns">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1187396621"/>
+</kaon:Label>
+<kaon:Synonym rdf:ID="i-1675493195641-174948447"
+    kaon:value="light_jj ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1875091269"/>
+</kaon:Synonym>
+<rdfs:Class rdf:ID="i-1675493195641-1749708997">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<rdfs:Class rdf:ID="i-1675493195641-1792096017">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Label rdf:ID="i-1675493195641-1793654594"
+    kaon:value="games_nns">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-118870727"/>
+</kaon:Label>
+<kaon:Label rdf:ID="i-1675493195641-1796175450"
+    kaon:value="best_jjs">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-593525464"/>
+</kaon:Label>
+<rdfs:Class rdf:ID="i-1675493195641-179853522">
+    <rdfs:subClassOf rdf:resource="#i-1675493195641-1082933919"/>
+    <rdfs:subClassOf rdf:resource="#i-1675493195641-1834265874"/>
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Synonym rdf:ID="i-1675493195641-1808682462"
+    kaon:value="sound_jj ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1834265874"/>
+</kaon:Synonym>
+<kaon:Stem rdf:ID="i-1675493195641-1814928796"
+    kaon:value="phone_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-877698776"/>
+</kaon:Stem>
+<rdfs:Class rdf:ID="i-1675493195641-1834265874">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Label rdf:ID="i-1675493195641-1844216260"
+    kaon:value="small_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1320559802"/>
+</kaon:Label>
+<kaon:Stem rdf:ID="i-1675493195641-1857478832"
+    kaon:value="small_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1320559802"/>
+</kaon:Stem>
+<kaon:Label rdf:ID="i-1675493195641-1872146107"
+    kaon:value="clear_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1707842357"/>
+</kaon:Label>
+<rdfs:Class rdf:ID="i-1675493195641-1875091269">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Label rdf:ID="i-1675493195641-1894934945"
+    kaon:value="sound_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1834265874"/>
+</kaon:Label>
+<kaon:Synonym rdf:ID="i-1675493195641-189498777"
+    kaon:value="special_jj ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-2101729189"/>
+</kaon:Synonym>
+<kaon:Stem rdf:ID="i-1675493195641-1903111964"
+    kaon:value="clear_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1707842357"/>
+</kaon:Stem>
+<kaon:Label rdf:ID="i-1675493195641-2075587183"
+    kaon:value="rings_nns">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-869482065"/>
+</kaon:Label>
+<kaon:Synonym rdf:ID="i-1675493195641-2095613614"
+    kaon:value="free_jj ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1358783316"/>
+</kaon:Synonym>
+<rdfs:Class rdf:ID="i-1675493195641-2101729189">
+    <rdfs:subClassOf rdf:resource="#i-1675493195641-877698776"/>
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Label rdf:ID="i-1675493195641-2118148762"
+    kaon:value="screen_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1157308026"/>
+</kaon:Label>
+<kaon:Synonym rdf:ID="i-1675493195641-213987465"
+    kaon:value="clear_jj ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1707842357"/>
+</kaon:Synonym>
+<kaon:Stem rdf:ID="i-1675493195641-230223632"
+    kaon:value="sound_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1834265874"/>
+</kaon:Stem>
+<kaon:Synonym rdf:ID="i-1675493195641-239177688"
+    kaon:value="great_jj ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-932641083"/>
+</kaon:Synonym>
+<kaon:Label rdf:ID="i-1675493195641-260824629"
+    kaon:value="options_nns">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-137945442"/>
+</kaon:Label>
+<kaon:Label rdf:ID="i-1675493195641-264361111"
+    kaon:value="problem_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1580375290"/>
+</kaon:Label>
+<kaon:Stem rdf:ID="i-1675493195641-325398634"
+    kaon:value="size_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-950371560"/>
+</kaon:Stem>
+<kaon:Stem rdf:ID="i-1675493195641-330197697"
+    kaon:value="screen_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1157308026"/>
+</kaon:Stem>
+<kaon:Label rdf:ID="i-1675493195641-3354541"
+    kaon:value="warranty_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-464581666"/>
+</kaon:Label>
+<kaon:Stem rdf:ID="i-1675493195641-462073026"
+    kaon:value="warranty_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-464581666"/>
+</kaon:Stem>
+<rdfs:Class rdf:ID="i-1675493195641-464581666">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Synonym rdf:ID="i-1675493195641-487128898"
+    kaon:value="excellent_jj ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1082933919"/>
+</kaon:Synonym>
+<kaon:Label rdf:ID="i-1675493195641-501746504"
+    kaon:value="quality_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-179853522"/>
+</kaon:Label>
+<kaon:Synonym rdf:ID="i-1675493195641-539537986"
+    kaon:value="quality_nn ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-179853522"/>
+</kaon:Synonym>
+<kaon:Synonym rdf:ID="i-1675493195641-562609041"
+    kaon:value="screen_nn ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1157308026"/>
+</kaon:Synonym>
+<kaon:Stem rdf:ID="i-1675493195641-593212254"
+    kaon:value="nokia_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1276145856"/>
+</kaon:Stem>
+<rdfs:Class rdf:ID="i-1675493195641-593525464">
+    <rdfs:subClassOf rdf:resource="#i-1675493195641-1792096017"/>
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Stem rdf:ID="i-1675493195641-596237974"
+    kaon:value="quality_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-179853522"/>
+</kaon:Stem>
+<kaon:Synonym rdf:ID="i-1675493195641-615578240"
+    kaon:value="good_jj ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-723058453"/>
+</kaon:Synonym>
+<kaon:Synonym rdf:ID="i-1675493195641-624807413"
+    kaon:value="phone_nn ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-877698776"/>
+</kaon:Synonym>
+<kaon:Label rdf:ID="i-1675493195641-628759032"
+    kaon:value="free_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1358783316"/>
+</kaon:Label>
+<kaon:Stem rdf:ID="i-1675493195641-676410175"
+    kaon:value="way_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-129717946"/>
+</kaon:Stem>
+<kaon:Stem rdf:ID="i-1675493195641-676456972"
+    kaon:value="good_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-723058453"/>
+</kaon:Stem>
+<rdfs:Class rdf:ID="i-1675493195641-723058453">
+    <rdfs:subClassOf rdf:resource="#i-1675493195641-877698776"/>
+    <rdfs:subClassOf rdf:resource="#i-1675493195641-950371560"/>
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Synonym rdf:ID="i-1675493195641-73435604"
+    kaon:value="menu_nn ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1202019245"/>
+</kaon:Synonym>
+<rdfs:Class rdf:ID="i-1675493195641-760678528">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Stem rdf:ID="i-1675493195641-800180673"
+    kaon:value="menu_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1202019245"/>
+</kaon:Stem>
+<kaon:Stem rdf:ID="i-1675493195641-825466207"
+    kaon:value="best_jjs">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-593525464"/>
+</kaon:Stem>
+<kaon:Synonym rdf:ID="i-1675493195641-831566620"
+    kaon:value="problem_nn ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1580375290"/>
+</kaon:Synonym>
+<kaon:Label rdf:ID="i-1675493195641-845480372"
+    kaon:value="phone_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-877698776"/>
+</kaon:Label>
+<kaon:Synonym rdf:ID="i-1675493195641-848664067"
+    kaon:value="best_jjs ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-593525464"/>
+</kaon:Synonym>
+<kaon:Stem rdf:ID="i-1675493195641-855518260"
+    kaon:value="voice_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1068904382"/>
+</kaon:Stem>
+<kaon:Label rdf:ID="i-1675493195641-860718457"
+    kaon:value="voice_nn">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1068904382"/>
+</kaon:Label>
+<rdfs:Class rdf:ID="i-1675493195641-869482065">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<rdfs:Class rdf:ID="i-1675493195641-877698776">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Synonym rdf:ID="i-1675493195641-883038800"
+    kaon:value="way_nn ">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-129717946"/>
+</kaon:Synonym>
+<kaon:Label rdf:ID="i-1675493195641-911644551"
+    kaon:value="nokia_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1276145856"/>
+</kaon:Label>
+<kaon:Stem rdf:ID="i-1675493195641-914466203"
+    kaon:value="rings_nns">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-869482065"/>
+</kaon:Stem>
+<rdfs:Class rdf:ID="i-1675493195641-932641083">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<kaon:Label rdf:ID="i-1675493195641-947018502"
+    kaon:value="good_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-723058453"/>
+</kaon:Label>
+<kaon:Stem rdf:ID="i-1675493195641-947116280"
+    kaon:value="free_jj">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493195641-1358783316"/>
+</kaon:Stem>
+<rdfs:Class rdf:ID="i-1675493195641-950371560">
+    <rdfs:subClassOf rdf:resource="&kaon;Root"/>
+</rdfs:Class>
+<rdf:Property rdf:ID="i-1675493346126-1901581829">
+    <rdfs:domain rdf:resource="#i-1675493195641-877698776"/>
+    <rdfs:range rdf:resource="#i-1675493195641-2101729189"/>
+</rdf:Property>
+<kaon:Label rdf:ID="i-1675493346126-379036864"
+    kaon:value="defaultProperty0">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493346126-1901581829"/>
+</kaon:Label>
+<rdf:Property rdf:ID="i-1675493350862-471535476">
+    <rdfs:domain rdf:resource="#i-1675493195641-1082933919"/>
+    <rdfs:range rdf:resource="#i-1675493195641-179853522"/>
+</rdf:Property>
+<kaon:Label rdf:ID="i-1675493350862-666752852"
+    kaon:value="defaultProperty0">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493350862-471535476"/>
+</kaon:Label>
+<kaon:Label rdf:ID="i-1675493361545-1051923995"
+    kaon:value="defaultProperty0">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493361545-1321342959"/>
+</kaon:Label>
+<rdf:Property rdf:ID="i-1675493361545-1321342959">
+    <rdfs:domain rdf:resource="#i-1675493195641-1082933919"/>
+    <rdfs:range rdf:resource="#i-1675493195641-1202019245"/>
+</rdf:Property>
+<rdf:Property rdf:ID="i-1675493370575-1845683084">
+    <rdfs:domain rdf:resource="#i-1675493195641-877698776"/>
+    <rdfs:range rdf:resource="#i-1675493195641-1707842357"/>
+</rdf:Property>
+<kaon:Label rdf:ID="i-1675493370575-241788691"
+    kaon:value="defaultProperty0">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493370575-1845683084"/>
+</kaon:Label>
+<rdf:Property rdf:ID="i-1675493375624-1897408618">
+    <rdfs:domain rdf:resource="#i-1675493195641-877698776"/>
+    <rdfs:range rdf:resource="#i-1675493195641-1320559802"/>
+</rdf:Property>
+<kaon:Label rdf:ID="i-1675493375624-479338396"
+    kaon:value="defaultProperty0">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493375624-1897408618"/>
+</kaon:Label>
+<kaon:Label rdf:ID="i-1675493383596-1457356071"
+    kaon:value="defaultProperty0">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493383596-1961895817"/>
+</kaon:Label>
+<rdf:Property rdf:ID="i-1675493383596-1961895817">
+    <rdfs:domain rdf:resource="#i-1675493195641-2101729189"/>
+    <rdfs:range rdf:resource="#i-1675493195641-869482065"/>
+</rdf:Property>
+<kaon:Label rdf:ID="i-1675493394363-2087981801"
+    kaon:value="defaultProperty0">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493394363-316897552"/>
+</kaon:Label>
+<rdf:Property rdf:ID="i-1675493394363-316897552">
+    <rdfs:domain rdf:resource="#i-1675493195641-118870727"/>
+    <rdfs:range rdf:resource="#i-1675493195641-1358783316"/>
+</rdf:Property>
+<rdf:Property rdf:ID="i-1675493399738-1189362786">
+    <rdfs:domain rdf:resource="#i-1675493195641-1187396621"/>
+    <rdfs:range rdf:resource="#i-1675493195641-1276145856"/>
+</rdf:Property>
+<kaon:Label rdf:ID="i-1675493399738-1438253531"
+    kaon:value="defaultProperty0">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493399738-1189362786"/>
+</kaon:Label>
+<kaon:Label rdf:ID="i-1675493407467-1321765263"
+    kaon:value="defaultProperty0">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493407467-315897783"/>
+</kaon:Label>
+<rdf:Property rdf:ID="i-1675493407467-315897783">
+    <rdfs:domain rdf:resource="#i-1675493195641-950371560"/>
+    <rdfs:range rdf:resource="#i-1675493195641-877698776"/>
+</rdf:Property>
+<kaon:Label rdf:ID="i-1675493417069-1404992992"
+    kaon:value="defaultProperty0">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493417069-604405034"/>
+</kaon:Label>
+<rdf:Property rdf:ID="i-1675493417069-604405034">
+    <rdfs:domain rdf:resource="#i-1675493195641-723058453"/>
+    <rdfs:range rdf:resource="#i-1675493195641-179853522"/>
+</rdf:Property>
+<kaon:Label rdf:ID="i-1675493422955-443447232"
+    kaon:value="defaultProperty0">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493422955-884704200"/>
+</kaon:Label>
+<rdf:Property rdf:ID="i-1675493422955-884704200">
+    <rdfs:domain rdf:resource="#i-1675493195641-723058453"/>
+    <rdfs:range rdf:resource="#i-1675493195641-1187396621"/>
+</rdf:Property>
+<kaon:Label rdf:ID="i-1675493429582-1149355444"
+    kaon:value="defaultProperty0">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493429582-1229047235"/>
+</kaon:Label>
+<rdf:Property rdf:ID="i-1675493429582-1229047235">
+    <rdfs:domain rdf:resource="#i-1675493195641-877698776"/>
+    <rdfs:range rdf:resource="#i-1675493195641-723058453"/>
+</rdf:Property>
+<rdf:Property rdf:ID="i-1675493438012-1608427445">
+    <rdfs:domain rdf:resource="#i-1675493195641-1320559802"/>
+    <rdfs:range rdf:resource="#i-1675493195641-877698776"/>
+</rdf:Property>
+<kaon:Label rdf:ID="i-1675493438012-1734627606"
+    kaon:value="defaultProperty0">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493438012-1608427445"/>
+</kaon:Label>
+<kaon:Label rdf:ID="i-1675493444637-1143902255"
+    kaon:value="defaultProperty0">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493444637-764892738"/>
+</kaon:Label>
+<rdf:Property rdf:ID="i-1675493444637-764892738">
+    <rdfs:domain rdf:resource="#i-1675493195641-723058453"/>
+    <rdfs:range rdf:resource="#i-1675493195641-1157308026"/>
+</rdf:Property>
+<rdf:Property rdf:ID="i-1675493451775-2062796016">
+    <rdfs:domain rdf:resource="#i-1675493195641-1792096017"/>
+    <rdfs:range rdf:resource="#i-1675493195641-593525464"/>
+</rdf:Property>
+<kaon:Label rdf:ID="i-1675493451775-212660392"
+    kaon:value="defaultProperty0">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493451775-2062796016"/>
+</kaon:Label>
+<kaon:Label rdf:ID="i-1675493456004-1769144725"
+    kaon:value="defaultProperty0">
+    <kaon:inLanguage rdf:resource="&kaon;en"/>
+    <kaon:references rdf:resource="#i-1675493456004-785321987"/>
+</kaon:Label>
+<rdf:Property rdf:ID="i-1675493456004-785321987">
+    <rdfs:domain rdf:resource="#i-1675493195641-869482065"/>
+    <rdfs:range rdf:resource="#i-1675493195641-2101729189"/>
+</rdf:Property>
+
+</rdf:RDF>
